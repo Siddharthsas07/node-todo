@@ -1,0 +1,19 @@
+{
+  "name": "npm-todo",
+  "version": "1.0.0",
+  "description": "npm-application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siddharthsas07/node-todo.git"
+  },
+  "author": "Siddharth Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siddharthsas07/node-todo/issues"
+  },
+  "homepage": "https://github.com/Siddharthsas07/node-todo#readme"
+}
