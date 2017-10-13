@@ -8,6 +8,7 @@ var config = require('./config');
 
 // get controllers here to access the end-points 
 var setupController = require('./controllers/setupController');
+var apiController = require('./controllers/apiController');
 
 // setting up the port
 var port = process.env.PORT || 3000;
@@ -23,6 +24,7 @@ mongoose.connect(config.getDbConnectionString(), {useMongoClient: true});
 
 // making api endpoint visible to app.js
 setupController(app);
+apiController(app);
 
 // adding seed data to mongoDB database
 
