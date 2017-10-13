@@ -42,7 +42,7 @@ module.exports = function(app) {
                 }
             );
         } else {
-            var newTodo = Todo(
+            var newTodo = Todos(
                 {
                     username: 'test',
                     todo: req.body.todo,
@@ -65,5 +65,5 @@ module.exports = function(app) {
             res.send('Success');
         })
     });
-    
+
 }
