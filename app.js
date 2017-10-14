@@ -10,6 +10,11 @@ var config = require('./config');
 var setupController = require('./controllers/setupController');
 var apiController = require('./controllers/apiController');
 
+
+// add static file folder public
+app.use('/', express.static(__dirname + '/public'));
+
+
 // setting up the port
 var port = process.env.PORT || 3000;
 
